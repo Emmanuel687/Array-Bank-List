@@ -2,7 +2,7 @@ function hasPosNeg(array){
   let hasPos = false;
   let hasNeg = false;
 
-  array.forEadch(num=>{
+  array.forEach(num=>{
    hasPos = num>0
    hasNeg=num<0
 
