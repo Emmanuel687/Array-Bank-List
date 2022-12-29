@@ -1,7 +1,8 @@
 const funcManu = manu =>{
-    for(let [i,man] of manu){
-        console.log(i,man)
-    }
+    manu.map(man => {
+        console.log(man)
+        
+    });
 }
 
 console.log(funcManu([3,4,5,6,78]))
