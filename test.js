@@ -1,6 +1,8 @@
 const funcManu = manu =>{
     manu.map(man => {
-        console.log(man)
+        man*6
+     const post = man<=6 ?`Small`:`Large`;
+     console.log(post)
         
     });
 }
