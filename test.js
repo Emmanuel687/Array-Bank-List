@@ -7,4 +7,4 @@ const funcManu = manu =>{
     });
 }
 
-console.log(funcManu([3,4,5,6,78]))
+console.log(funcManu([3,4,5,6,78,8]))
