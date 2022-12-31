@@ -4,9 +4,8 @@ const funcManu = manu => {
     const post = man <= 6 ? `Small` : `Large`;
     console.log(post);
 
-    manu.forEach((man, i) => {
-      console.log(man);
-    });
+    manu.find((man, i) => console.log(man<5)
+    );
   });
 };
 
