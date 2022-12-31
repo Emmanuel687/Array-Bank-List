@@ -3,6 +3,11 @@ const funcManu = manu =>{
         man*6
      const post = man<=6 ?`Small`:`Large`;
      console.log(post)
+
+    manu.forEach((man,i) => {
+        console.log(man)
+        
+    });
         
     });
 }
