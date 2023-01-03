@@ -4,7 +4,7 @@ const funcManu = manu => {
     const post = man <= 6 ? `Small` : `Large`;
     console.log(post);
 
-    // manu.find((man, i) => console.log(man<5)
+    manu.find((man, i) => console.log(man<5)
     );
   });
 };
